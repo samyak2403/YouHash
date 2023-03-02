@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewItemContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    app:cardCornerRadius="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageViewHashtagItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="8dip"
+            app:riv_mutate_background="true" />
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageViewGradien"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gradien_black_color"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewHashtagItem"
+            app:layout_constraintStart_toStartOf="parent"
+            app:riv_corner_radius="16dip"
+            app:riv_mutate_background="true" />
+
+
+        <Button
+            android:id="@+id/button_see_more_game_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/next_button"
+            android:fontFamily="@font/sniglet"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="@+id/imageViewGradien" />
+
+        <ImageView
+            android:id="@+id/imageViewCircleHashtagItem"
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/youtube_icon_sd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewGradien" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_see_more_game_item"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCircleHashtagItem"
+            app:layout_constraintTop_toTopOf="@+id/imageViewGradien">
+
+            <TextView
+                android:id="@+id/textViewCategoryHashtagItem"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="5"
+                android:fontFamily="@font/sniglet"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSubCategoryHashtagItem"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="5"
+                android:fontFamily="@font/harmattan"
+                android:gravity="start"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    style="@style/snigletFontFamily"
+    android:id="@+id/drawerlayout_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:fitsSystemWindows="true"
+        android:paddingTop="?actionBarSize"
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/header_drawer_menu"
+        app:itemTextAppearance="@style/snigletFontFamily"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"
+        app:itemIconTint="@android:color/darker_gray"
+        app:itemTextColor="@android:color/darker_gray"
+        android:background="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

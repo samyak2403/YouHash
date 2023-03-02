@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">YouHash</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share">Share</string>
+    <string name="rate_app">Rate App</string>
+    <string name="more_apps">More Apps</string>
+    <string name="copy_youtube">Copy</string>
+    <string name="copy_done">Copied</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="dashboard">Home</string>
+
+    <!--Privacy Policy , Contact us , About Us -->
+    <string name="about_us_content">Your Info Here</string>
+    <string name="privacy_policy_content" translatable="false">Your Privacy Policy Here </string>
+    <string name="contact_us_content">Your Contact info Here</string>
+
+    <!-- ADMOB -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitial_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- GDPR -->
+    <string name="update_consent" translatable="false">Change or revoke consent</string>
+    <string name="privacy_policy_url" translatable="false">https://policies.google.com/privacy</string>
+    <string name="publisher_id" translatable="false">pub-123456789</string>
+    <string name="hashtags_copied">Hashtags Copied</string>
+
+
+</resources>

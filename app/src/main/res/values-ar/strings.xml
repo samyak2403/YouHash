@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_us">معلومات عنا</string>
+    <string name="about_us_content">أنا مطور Android يمكنك الاتصال بي في قسم الاتصال بنا</string>
+    <string name="copy_done">"تم النسخ "</string>
+    <string name="copy_youtube">نسخ</string>
+    <string name="dashboard">الصفحة الرئيسية</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="share">مشاركة التطبيق</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="contact_us_content">" اتصل بنا للحصول على مزيد من المعلومات في هذا البريد الإلكتروني "</string>
+    <string name="more_apps">تطبيقات أكثر</string>
+    <string name="rate_app">تقييم التطبيق لدينا</string>
+    <string name="hashtags_copied">تم نسخ الهاشتاقات</string>
+</resources>

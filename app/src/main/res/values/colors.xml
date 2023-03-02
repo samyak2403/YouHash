@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4fc3f7</color>
+    <color name="colorPrimaryDark">#0093c4</color>
+    <color name="colorAccent">#f50057</color>
+    <color name="colorPurple">#ab47bc</color>
+    <color name="colorTransparentBlack">#CD030303</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorInstagramContentButtons">#D81B60</color>
+    <color name="colorYoutubeContentButtons">#FF0400</color>
+    <color name="colorTwitterContentButtons">#039BE5</color>
+</resources>
